@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Posts from "@/components/Posts";
+import Link from "next/link";
+import React from "react";
 
 export default function Home() {
   return (
