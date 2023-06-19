@@ -3,6 +3,8 @@ import Posts from "@/components/Posts";
 import Link from "next/link";
 import React from "react";
 
+export const revalidate = 86400
+
 export default function Home() {
   return (
     <main className=" px-6 mx-auto">
